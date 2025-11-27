@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css/estilos.css">
+</head>
+<body> 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cafe paris</title>
+    </head>
+    <body>
+        <h1>Cafe Paris</h1>
+        <p id="eslogan">Un momento de relax</p>
+       
+       
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="carta.html">Nuestra carta</a></li>
+            <li><a href="contacto.html"><h2>Contacte con nosotros</h2></a></li>
+        </ul>
+        
+        <form action="procesacontacto.php" method="get">
+            <fieldset>
+                <p><label for="nombre"> Nombre y apellidos<input  value="Escriba su nombre y aplellidos" placeholder="" id="nombre" required type="text"></label></p>
+               <p><label for="nacim">Fecha de nacimiento: <input required id="nacim" type="date"></label></p>
+
+               <p><label for=""> Suele consumir:</label><label for="consum"><input id="consum" value="Café" name="consum" type="radio">Café</label>
+
+                <label for="te"><input id="te" name="consum" type="radio">Té</label>
+                <label for="ambos"><input id="ambos" name="consum" type="radio">Ambos</label></p>
+                
+                <p><label for="nume">Numero de cafes al dia: <input id="nume" type="number" min="1" max="5"></label></p>
+
+                <p><label  for="selecafe">Seleccione su cafeteria: 
+                <select
+                 name="select" id="selecafe">
+                    <option selected value="madrid">Madrid</option>
+                    <option value="barce">Barceloba</option>
+                    <option value="mala">Malaga</option>
+                </select></label></p>
+                <p><label for="deseo"><input id="deseo" checked type="checkbox">Deseo recibir informacion sobre novedades y ofertas.</label></p>
+          
+            <p><input value="enviar" type="submit">
+            <input value="Reiniciar" type="reset"></p>
+            </fieldset></form>
+
+      
+    </body>
+    </html>
+</body>
+</html>
