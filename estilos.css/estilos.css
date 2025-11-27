@@ -52,8 +52,6 @@ a:active {
     width: 150px;
     height: 150px;
     border-radius: 50%; 
-    background-size: cover;
-
 }
 #contenedor-logo {
     text-align: center;
